@@ -1,0 +1,16 @@
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/bin/Debug/net6.0/appsettings.Development.json
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/bin/Debug/net6.0/appsettings.json
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/bin/Debug/net6.0/Lab
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/bin/Debug/net6.0/Lab.dll
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/bin/Debug/net6.0/Lab.pdb
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.csproj.AssemblyReference.cache
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.GeneratedMSBuildEditorConfig.editorconfig
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.AssemblyInfoInputs.cache
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.AssemblyInfo.cs
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.csproj.CoreCompileInputs.cache
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.MvcApplicationPartsAssemblyInfo.cs
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.MvcApplicationPartsAssemblyInfo.cache
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/scopedcss/bundle/Lab.styles.css
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.dll
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/ref/Lab.dll
+/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/Debug/net6.0/Lab.pdb

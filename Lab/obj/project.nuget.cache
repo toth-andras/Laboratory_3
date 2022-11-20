@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "mv3w59CAcd+ze4LpKpK6V2a1OMn3EzEHXLxM3sgOkGFnrgNAWUP+aR05CfTOOtQbZvBR7WvgCNI5XzUJBCDpyA==",
+  "success": true,
+  "projectFilePath": "/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/Lab.csproj",
+  "expectedPackageFiles": [
+    "/Users/totandras/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/totandras/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/totandras/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/totandras/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/totandras/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/totandras/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
