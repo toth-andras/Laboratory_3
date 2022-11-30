@@ -2,6 +2,7 @@ using System.Text;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using System.Text.RegularExpressions;
+using Lab.Services.IO;
 
 
 namespace Lab;
@@ -15,13 +16,14 @@ public static class Handler
 
         return resp;
     }
-
+    
     private static IReadOnlyList<string> GetLinks(string text)
     {
         var rg = new Regex("href=\"(.+?)\"");
         return rg.Matches(text).Select(x => x.Groups[1].Value).ToList();
     }
 
+    
     public static async Task<IResult> RegexQuery(string uri)
     {
         if (uri is null or "")
@@ -68,5 +70,38 @@ public static class Handler
         }
 
         return Results.Ok(res);
+    }
+
+    /// <summary>
+    /// Puts the data from the file with given path into the database.
+    /// </summary>
+    public static async Task<IResult> Initialize([FromBody] InitializeRequestModel request)
+    {
+        if (File.Exists(request.FilePath) is false)
+        {
+            return Results.BadRequest("A file with the given path does not exist.");
+        }
+
+        IEnumerable<WeatherEventModel> events;
+        try
+        {
+            events = FileReader.GetData(request.FilePath);
+        }
+        catch (Exception e)
+        {
+            return Results.BadRequest(e.Message);
+        }
+
+        var dbManager = new DbManager("weatherDB.db");
+        try
+        {
+            await dbManager.SaveToDb(events);
+        }
+        catch (Exception e)
+        {
+            return Results.BadRequest(e.Message);
+        }
+        
+        return Results.Ok("The data has been saved to db.");
     }
 }

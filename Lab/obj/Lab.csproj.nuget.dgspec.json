@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/Lab.csproj": {}
+    "/Users/totandras/Desktop/Programming/Laboratory_3/Lab/Lab.csproj": {}
   },
   "projects": {
-    "/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/Lab.csproj": {
+    "/Users/totandras/Desktop/Programming/Laboratory_3/Lab/Lab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/Lab.csproj",
+        "projectUniqueName": "/Users/totandras/Desktop/Programming/Laboratory_3/Lab/Lab.csproj",
         "projectName": "Lab",
-        "projectPath": "/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/Lab.csproj",
+        "projectPath": "/Users/totandras/Desktop/Programming/Laboratory_3/Lab/Lab.csproj",
         "packagesPath": "/Users/totandras/.nuget/packages/",
-        "outputPath": "/Users/totandras/Desktop/Учёба/Программы/Lab/Lab/obj/",
+        "outputPath": "/Users/totandras/Desktop/Programming/Laboratory_3/Lab/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/totandras/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,18 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
